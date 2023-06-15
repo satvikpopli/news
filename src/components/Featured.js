@@ -6,12 +6,12 @@ export default function Featured({ featuredArticles }) {
     return (
         <>
             <StyledFeatured>
-                <img src={featuredArticles[0].urlToImage} alt="featured-image" />
+                <img src={featuredArticles[0].urlToImage} alt="featured" />
                 <Details featuredArticle={featuredArticles[0]} />
             </StyledFeatured>
             <StyledFeatured>
                 <Details featuredArticle={featuredArticles[1]} />
-                <img src={featuredArticles[1].urlToImage} alt="featured-image" />
+                <img src={featuredArticles[1].urlToImage} alt="featured" />
             </StyledFeatured>
         </>
     )

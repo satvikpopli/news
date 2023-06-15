@@ -14,7 +14,7 @@ export default function Header({onClick, theme, onCategoryChange}) {
                 <div className='separate'>
                     <Search theme={theme} />
                     <ToggleTheme onClick={onClick} />
-                    <a href="">SUBSCRIBE</a>
+                    <a href="https://github.com/satvikpopli/news/">SUBSCRIBE</a>
                 </div>
             </StyledHeader>
             <StyledNavbar>
